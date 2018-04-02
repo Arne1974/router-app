@@ -8,4 +8,5 @@ import homeRoutes from './home.routes';
     imports: [CommonModule, homeRoutes],
     declarations: [HomeComponent]
 })
+
 export default class HomeModule { }

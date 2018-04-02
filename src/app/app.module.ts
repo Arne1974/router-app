@@ -9,7 +9,7 @@ import appRoutes from './app.routes';
   ],
   imports: [
     BrowserModule,
-    appRoutes
+    appRoutes,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -8,4 +8,5 @@ import { ContactsComponent } from './contacts.component';
     imports: [CommonModule, contactsRoutes],
     declarations: [ContactsComponent]
 })
+
 export default class ContactsModule { }
