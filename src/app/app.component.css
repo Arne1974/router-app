@@ -1,0 +1,15 @@
+nav a{
+    text-decoration: none;
+}
+nav a.active{
+    font-weight: bold;
+    background-color: #b8c9b845;
+    border-radius: 4px;
+}
+nav a {
+    padding: 2px 4px;
+    margin: 2px 4px;
+}
+nav a:NOT(.active):hover {
+    background-color: #ecd3ecd3;
+}
